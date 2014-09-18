@@ -18,6 +18,6 @@ compiler:
 script:
   - wineboot
   - export EXEEXT=.exe
-  - export WINEDEBUG=-all
+  - export WINEDEBUG=+all
   - chmod +x ./zz_clipboard_test.exe
   - ./zz_clipboard_test.exe 1.copy_file
